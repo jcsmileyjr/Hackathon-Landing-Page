@@ -14,7 +14,7 @@ a {
 }
 
 /*make all headers the same fonts and family with a small shadow*/
-h3, h1 {
+h3, h1, span {
   font-family:"Source Sans Pro",sans-serif;
   font-weight: 900;
   text-shadow: 1px 1px grey;
@@ -82,5 +82,15 @@ footer {
   text-align: center;
 }
 
+/*CSS for the current sponsor section inside the Sponsor section*/
+.sponsorTitle {
+  color: #5C93CE;
+  font-weight: 900;
+  font-family:"Source Sans Pro",sans-serif;
+}
+
+span {
+    color: navy;
+}
 
 
