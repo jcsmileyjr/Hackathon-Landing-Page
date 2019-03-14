@@ -74,7 +74,7 @@ footer {
   font-weight: 900;
 }
 
-.card-header {
+.card-header, .card-footer {
   text-align: center;
   background-color: #5C93CE !important;
   color: #f8f8f8;
