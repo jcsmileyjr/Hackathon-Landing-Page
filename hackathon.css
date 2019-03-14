@@ -1,3 +1,4 @@
+/*CSS for the Nav bar*/
 .navbar{ background:grey;}
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 .nav-link{ margin-right: 1em !important; color:#f4f4f4 }
@@ -5,24 +6,34 @@
 .navbar-collapse{ justify-content: flex-end;}
 .navbar-toggler{  background:#fff !important; }
 .navbar-toggler-icon {color: orange !important;}
+nav {background-color: #5C93CE !important;}
 
+/*Make the links in the nav bar white*/
 a {
   color: #f8f8f8 !important;
 }
 
-h3, h1 {
+/*make all headers the same fonts and family with a small shadow*/
+h3, h1, span {
   font-family:"Source Sans Pro",sans-serif;
   font-weight: 900;
   text-shadow: 1px 1px grey;
 }
 
+/*CSS for the sign up section. Affect the section margin, background pic, and text */
 .firstSection {
   margin-top: 3.5rem;
   text-align: center;
   color: #F8F8F8;
   padding-bottom: .3rem;
+
+  /*Add a pic to the background*/
+  background:url(assets/fist-bump.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/*CSS for the sign up button*/
 .buttonStyle {
   font-size: 1.5em;
   font-weight: 900;
@@ -34,6 +45,7 @@ h3, h1 {
   padding: .5rem 2rem
 }
 
+/*CSS for the icons in the project. Setting a light blue color and text styles*/
 i {
   color: #5C93CE;
 }
@@ -43,16 +55,13 @@ i {
   font-size: 4em;
 }
 
+/*CSS for all main's section (sponsor, details, and organizer)*/
 .spaceBetweenSections{
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-nav {
-  /*background-color: #8f13d8 !important;*/
-  background-color: #5C93CE !important;
-}
-
+/*CSS for the footer section foccus on the border line above it and the text(simliar to the headers)*/
 footer {
   text-align: center;
   border-top-style: solid;
@@ -62,6 +71,7 @@ footer {
   font-weight: 900;
 }
 
+/*CSS for the card used in the Details section for the schedule*/
 .card-header, .card-footer {
   text-align: center;
   background-color: #5C93CE !important;
@@ -72,10 +82,15 @@ footer {
   text-align: center;
 }
 
-.firstSection {
-  background:url(assets/fist-bump.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+/*CSS for the current sponsor section inside the Sponsor section*/
+.sponsorTitle {
+  color: #5C93CE;
+  font-weight: 900;
+  font-family:"Source Sans Pro",sans-serif;
+}
+
+span {
+    color: navy;
 }
 
 
