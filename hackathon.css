@@ -19,12 +19,13 @@ h3, h1 {
 .firstSection {
   margin-top: 3.5rem;
   text-align: center;
-  /*background-color: #f5f5f5;*/
+  color: #F8F8F8;
   padding-bottom: .3rem;
 }
 
 .buttonStyle {
   font-size: 1.5em;
+  font-weight: 900;
   border-radius: 25px;
   border-color: navy;
   box-shadow: 1px 1px grey;
@@ -82,3 +83,11 @@ footer {
 .card-body {
   text-align: center;
 }
+
+.firstSection {
+  background:url(assets/fist-bump.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
