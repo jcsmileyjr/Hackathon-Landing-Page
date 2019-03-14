@@ -1,18 +1,7 @@
-/*CSS for the Nav bar*/
-.navbar{ background:grey;}
-.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
-.nav-link{ margin-right: 1em !important; color:#f4f4f4 }
-.nav-link:hover{ background: lightblue; color: grey; }
-.navbar-collapse{ justify-content: flex-end;}
-.navbar-toggler{  background:#fff !important; }
-.navbar-toggler-icon {color: orange !important;}
-nav {background-color: #5C93CE !important;}
-
-/*Make the links in the nav bar white*/
-a {
-  color: #f8f8f8 !important;
+/*make the nav and first section background pic seem like they run together*/
+nav {
+  margin-bottom: -10px;
 }
-
 /*make all headers the same fonts and family with a small shadow*/
 h3, h1, span {
   font-family:"Source Sans Pro",sans-serif;
@@ -20,15 +9,20 @@ h3, h1, span {
   text-shadow: 1px 1px grey;
 }
 
+/*center the section heading*/
+h3 {
+    text-align: center;
+}
 /*CSS for the sign up section. Affect the section margin, background pic, and text */
 .firstSection {
-  margin-top: 3.5rem;
+  /*padding-top: 6rem;*/
   text-align: center;
   color: #F8F8F8;
   padding-bottom: .3rem;
 
   /*Add a pic to the background*/
-  background:url(assets/fist-bump.jpeg);
+  /*Found tip to darken background pic @ https://stackoverflow.com/questions/26621513/darken-css-background-image*/
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(assets/fist-bump.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,7 +36,8 @@ h3, h1, span {
   box-shadow: 1px 1px grey;
   background-color:navy;
   color: white;
-  padding: .5rem 2rem
+  padding: .5rem 2rem;
+  margin: 10px; /*space between button and prizes*/
 }
 
 /*CSS for the icons in the project. Setting a light blue color and text styles*/
@@ -72,7 +67,7 @@ footer {
 }
 
 /*CSS for the card used in the Details section for the schedule*/
-.card-header, .card-footer {
+.cardSchedule, nav {
   text-align: center;
   background-color: #5C93CE !important;
   color: #f8f8f8;
@@ -91,6 +86,13 @@ footer {
 
 span {
     color: navy;
+}
+
+.prizes {
+  font-weight: 900;
+  color: #F8F8F8;
+  font-size: 1em;
+  font-family:"Source Sans Pro",sans-serif;
 }
 
 

@@ -1,14 +1,14 @@
-# Launch Code Memphis Hackathon
+# Computers & Fried Chicken Hackathon
 <hr>
 
-![Screen-shot of app in use](assets/active-case-a-compressor.png) 
+![Screen-shot of app in use](assets/landingPage1-min.PNG) 
 
 ### Table of Contents
 1. Project Demo Link
 2. Motivation
 3. Technologies Used
 
-### Deployed Production Link: [Launch Code Memphis Hackathon](https://jcsmileyjr.github.io/Hackathon-Landing-Page/)
+### Deployed Production Link: [Computers & Fried Chicken Hackathon](https://jcsmileyjr.github.io/Hackathon-Landing-Page/)
 
 ### Motivation:
 I am currently a TA for the Launch Code tech bootcamp program. I would love for there to be an internal Hackathon for the students. This lead me to practice building this imaginary landing page. 
