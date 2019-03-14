@@ -9,6 +9,10 @@ h3, h1, span {
   text-shadow: 1px 1px grey;
 }
 
+/*center the section heading*/
+h3 {
+    text-align: center;
+}
 /*CSS for the sign up section. Affect the section margin, background pic, and text */
 .firstSection {
   /*padding-top: 6rem;*/
