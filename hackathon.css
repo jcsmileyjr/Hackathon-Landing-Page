@@ -43,19 +43,7 @@ i {
   font-size: 4em;
 }
 
-.organizerSection {
-  /*background-color: #p1p8p8;*/
-}
-
-.sponsorSection {
-  /*background-color: #a6d8f8;*/
-}
-
-.detailsSection {
-  /*background-color: #e2e2f2;*/
-}
-
-.detailsSection, .sponsorSection, .organizerSection, .firstSection {
+.spaceBetweenSections{
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
