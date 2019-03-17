@@ -1,7 +1,7 @@
 # Computers & Fried Chicken Hackathon
 <hr>
 
-![Screen-shot of app in use](assets/landingPage1-min.PNG) 
+![Screen-shot of app in use](assets/hackathon3.png) 
 
 ### Table of Contents
 1. Project Demo Link
