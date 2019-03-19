@@ -85,6 +85,9 @@ footer {
   font-family:"Source Sans Pro",sans-serif;
 }
 
+.sponsor {
+    text-align: center;
+}
 .prizes {
   font-weight: 900;
   color: #F8F8F8;
