@@ -52,7 +52,7 @@ i {
 /*CSS for all main's section (sponsor, details, and organizer)*/
 .spaceBetweenSections{
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  //padding-bottom: 3rem;
 }
 
 /*CSS for the footer section foccus on the border line above it and the text(simliar to the headers)*/
