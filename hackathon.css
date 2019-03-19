@@ -1,9 +1,12 @@
 /*make the nav and first section background pic seem like they run together*/
-nav {
+.navStyle {
   margin-bottom: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
 /*make all headers the same fonts and family with a small shadow*/
-h3, h1, span {
+h3, h1, h5 {
   font-family:"Source Sans Pro",sans-serif;
   font-weight: 900;
   text-shadow: 1px 1px grey;
@@ -13,12 +16,13 @@ h3, h1, span {
 h3 {
     text-align: center;
 }
-/*CSS for the sign up section. Affect the section margin, background pic, and text */
+/*CSS for the sign up section. Affect the section margin, background picture, and text */
 .firstSection {
   /*padding-top: 6rem;*/
   text-align: center;
   color: #F8F8F8;
-  padding-bottom: .3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   /*Add a pic to the background*/
   /*Found tip to darken background pic @ https://stackoverflow.com/questions/26621513/darken-css-background-image*/
@@ -45,15 +49,10 @@ i {
   color: #5C93CE;
 }
 
-.iconStyle {
-  text-align: center;
-  font-size: 4em;
-}
-
 /*CSS for all main's section (sponsor, details, and organizer)*/
 .spaceBetweenSections{
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  //padding-bottom: 3rem;
 }
 
 /*CSS for the footer section foccus on the border line above it and the text(simliar to the headers)*/
@@ -64,16 +63,18 @@ footer {
   border-top-width: .1px;
   color: #8f13d8;
   font-weight: 900;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*CSS for the card used in the Details section for the schedule*/
-.cardSchedule, nav {
+.cardSchedule, .navStyle {
   text-align: center;
   background-color: #5C93CE !important;
   color: #f8f8f8;
 }
 
-.card-body {
+.card-body, h5 {
   text-align: center;
 }
 
@@ -84,15 +85,13 @@ footer {
   font-family:"Source Sans Pro",sans-serif;
 }
 
-span {
-    color: navy;
+.sponsor {
+    text-align: center;
 }
-
 .prizes {
   font-weight: 900;
   color: #F8F8F8;
   font-size: 1em;
   font-family:"Source Sans Pro",sans-serif;
+  text-shadow: 1.5px 1px grey;
 }
-
-
