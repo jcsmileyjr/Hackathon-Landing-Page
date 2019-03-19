@@ -1,9 +1,10 @@
 /*make the nav and first section background pic seem like they run together*/
-nav {
+.navStyle {
   margin-bottom: -10px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 /*make all headers the same fonts and family with a small shadow*/
 h3, h1, h5 {
   font-family:"Source Sans Pro",sans-serif;
@@ -48,11 +49,6 @@ i {
   color: #5C93CE;
 }
 
-.iconStyle {
-  text-align: center;
-  font-size: 4em;
-}
-
 /*CSS for all main's section (sponsor, details, and organizer)*/
 .spaceBetweenSections{
   padding-top: 3rem;
@@ -72,7 +68,7 @@ footer {
 }
 
 /*CSS for the card used in the Details section for the schedule*/
-.cardSchedule, nav {
+.cardSchedule, .navStyle {
   text-align: center;
   background-color: #5C93CE !important;
   color: #f8f8f8;
@@ -87,10 +83,6 @@ footer {
   color: #5C93CE;
   font-weight: 900;
   font-family:"Source Sans Pro",sans-serif;
-}
-
-span {
-    color: navy;
 }
 
 .prizes {
