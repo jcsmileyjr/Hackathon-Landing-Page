@@ -1,7 +1,7 @@
 # Computers & Fried Chicken Hackathon
 <hr>
 
-![Screen-shot of app in use](assets/hackathon3.png) 
+![Screen-shot of app in use](assets/Hackathon3-resize-compressor.png) 
 
 ### Table of Contents
 1. Project Demo Link
